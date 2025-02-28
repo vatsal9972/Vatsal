@@ -1,0 +1,70 @@
+.experience-section {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    background-image: var(--section-background-color);
+}
+
+.experience-card {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: auto;
+}
+
+.experience-card-view {
+    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
+    background-color: transparent !important; 
+    opacity: 0.9;
+    transition: all 0.5s ease 0s;
+    height: 100%;
+    color: var(--text-color); /* Ensures it follows the theme */
+}
+
+/* Ensure all text inside the card is visible */
+.experience-card-view * {
+    color: #ddd !important; /* Light gray for readability */
+}
+
+/* Specific styles for headings and paragraphs */
+.experience-card-view h3, 
+.experience-card-view p {
+    color: #ffffff !important; /* White text for better contrast */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Soft shadow for visibility */
+}
+
+.experience-card-view:hover {
+    transform: scale(1.02);
+    overflow: hidden;
+    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561);
+}
+
+.card-img-top {
+    padding: 20px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.tech-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgba(119, 53, 136, 0.459);
+    font-size: 0.9rem;
+    color: #fff; /* Ensure text inside badges is visible */
+}
+
+.duration {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #ccc; /* Slightly lighter for differentiation */
+}
+
+.experience-heading {
+    color: white;
+    font-size: 2.3em;
+    font-weight: 500;
+    padding-top: 10px;
+}

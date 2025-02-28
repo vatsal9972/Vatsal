@@ -1,0 +1,144 @@
+.certification-section {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    background-image: var(--section-background-color);
+}
+
+/* Ensure consistent card layout */
+.certification-card {
+    padding: 50px 25px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Ensure all certification cards have the same height */
+.certification-card-view {
+    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
+    background-color: transparent !important;
+    opacity: 0.9;
+    transition: all 0.5s ease 0s;
+    height: 100%;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+}
+
+/* Make sure the content inside the card is spaced properly */
+.certification-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: visible;
+}
+
+/* Pushes the footer (buttons) to the bottom */
+.certification-card-footer {
+    margin-top: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Ensure all text inside the card is visible */
+.certification-card-view * {
+    color: #ddd !important; /* Light gray for readability */
+}
+
+/* Specific styles for headings and paragraphs */
+.certification-card-view h3, 
+.certification-card-view p {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Hover effect */
+.certification-card-view:hover {
+    transform: scale(1.02);
+    overflow: hidden;
+    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561);
+}
+
+/* Uniform image styling */
+.card-img-top {
+    padding: 20px;
+    opacity: 0.9;
+    border-radius: 10px;
+    object-fit: contain; /* Ensures full image is visible */
+    height: auto; /* Allows dynamic height */
+    max-height: 220px; /* Prevents it from becoming too large */
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* Badge styling - ensures proper visibility */
+.tech-badge {
+    display: inline-block;
+    padding: 8px 12px; /* Increased padding */
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgba(119, 53, 136, 0.8);
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    white-space: nowrap;
+    overflow: visible;
+    text-align: center;
+}
+
+/* Duration styling */
+.duration {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+/* Section Heading */
+.certification-heading {
+    color: white;
+    font-size: 2.3em;
+    font-weight: 500;
+    padding-top: 10px;
+    text-align: center;
+}
+/* Ensure full image visibility */
+.card-img-top {
+    padding: 20px;
+    opacity: 0.9;
+    border-radius: 10px;
+    object-fit: contain; /* Ensures full image is visible */
+    height: auto; /* Allows dynamic height */
+    max-height: 220px; /* Prevents it from becoming too large */
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* Ensure all certification cards have the same height */
+.certification-card-view {
+    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
+    background-color: transparent !important;
+    opacity: 0.9;
+    transition: all 0.5s ease 0s;
+    height: 100%;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+}
+
+/* Footer alignment for buttons */
+.certification-card-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
