@@ -8,7 +8,7 @@ import clogo from "../../Assets/clogo.png";
 
 function Experience() {
   return (
-    <Container fluid className="experience-section">
+    <Container fluid className="experience-section" id="experience">
       <Particle />
       <Container>
         <h1 className="project-heading">

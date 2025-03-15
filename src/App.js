@@ -19,6 +19,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BiCertification } from "react-icons/bi";
+import Homepage from "./components/Homepage";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -38,12 +39,7 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/certificate" element={<Certification />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

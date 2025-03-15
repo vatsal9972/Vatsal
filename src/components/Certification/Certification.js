@@ -11,7 +11,7 @@ import "./cer.css";
 
 function Certifications() {
   return (
-    <Container fluid className="certification-section">
+    <Container fluid className="certification-section" id="certifications">
       <Particle />
       <Container>
         <h1 className="certification-heading">
