@@ -7,6 +7,7 @@ import q from "../../Assets/Certifications/q.png";
 import aca from "../../Assets/Certifications/aca.png";
 
 
+
 import "./cer.css";
 
 function Certifications() {
@@ -57,9 +58,10 @@ function Certifications() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
   <Col md={4} className="certification-card">
     <CertificationCard
-      title="AWS Educate Introduction to Cloud 101"
-      issuedBy="AWS Educate"
-      certLink="https://www.credly.com/badges/10bfdd8c-ab40-4e2d-b715-6e4af698f83a/public_url"
+      title="AWS Academy Graduate - AWS Academy Cloud Developing"
+      issuedBy="AWS Academy"
+      certLink="https://www.credly.com/badges/02d69a27-b6a0-48f7-8272-3c81051e8d7b/public_url"
+      pdfLink="/cert/Clouddeveloping.pdf"
     />
   </Col>
 
@@ -76,6 +78,15 @@ function Certifications() {
       title="AWS Cloud Practitioner Essentials"
       issuedBy="Amazon Web Services (AWS)"
       pdfLink="/cert/ESS.pdf"
+    />
+  </Col>
+</Row>
+<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+  <Col md={4} className="certification-card">
+    <CertificationCard
+      title="AWS Educate Introduction to Cloud 101"
+      issuedBy="AWS Educate"
+      certLink="https://www.credly.com/badges/10bfdd8c-ab40-4e2d-b715-6e4af698f83a/public_url"
     />
   </Col>
 </Row>

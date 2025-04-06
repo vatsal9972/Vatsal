@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
+import vatsal from "../../Assets/vatsal.jpg"
 
 function About() {
   return (
@@ -29,7 +30,19 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img
+              src={vatsal}
+              alt="Vatsal"
+              className="img-fluid"
+              style={{
+                borderRadius: "50%",
+                width: "200px",
+                height: "200px",
+                objectFit: "cover",
+                border: "3px solid #6c63ff",
+                boxShadow: "0px 4px 12px rgba(0,0,0,0.3)",
+              }}
+            />
           </Col>
         </Row>
         <h1 className="project-heading">
@@ -43,3 +56,5 @@ function About() {
 }
 
 export default About;
+
+
